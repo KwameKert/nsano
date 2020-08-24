@@ -1,0 +1,90 @@
+
+<header id="header" class="fixed-top">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-10 d-flex align-items-center">
+          <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png"  class="logo mr-auto" alt=""></a>
+          <button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>
+          <nav class="nav-menu d-none d-lg-block">
+              
+            <ul>
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a (click)="scrollToTarget('#about')" href="#" >About</a></li>
+              <li><a (click)="scrollToTarget('#apis')" href="#" >Apis</a></li>
+              <li><a   (click)="scrollToTarget('#contact')"href="#" >Contact</a></li>
+            </ul>
+          </nav><!-- .nav-menu -->
+        </div>
+      </div>
+  
+    </div>
+  </header>
+
+ 
+
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+
+          <div class="carousel-item active" style="background-image: url('assets/img/bg3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Instant Credit Promo</h2>
+                <p class="animate__animated animate__fadeInUp"  style="font-size: 22px;">
+                  Terminate remittances of up to $100,000 in a day to Ghana and pay no charge for any other transaction. <br>
+                  Offer last until 10th December 2020
+                </p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto ml-0">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 1 -->
+          <div class="carousel-item " style="background-image: url('assets/img/bg.jpeg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Instant Credit</h2>
+                <p class="animate__animated animate__fadeInUp" style="font-size: 22px;">A service that enables real-time termination of remittances
+                  to mobile wallets and bank accounts in Africa in fast, secure and convenient
+                  manner.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto ml-0">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+   
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/bg43.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Our Service</h2>
+                <p class="animate__animated animate__fadeInUp"  style="font-size: 22px;">
+                  As a technology provider, Instant Credit is positioned to provide the best
+                  remittance experience for both IMTs and their customers.
+                </p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto ml-0">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>

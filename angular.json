@@ -24,9 +24,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/icofont/icofont.min.css",
+              "src/assets/vendor/boxicons/css/boxicons.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
+              "src/assets/vendor/animate.css/animate.min.css",
+              "src/assets/vendor/aos/aos.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/jquery/jquery.min.js",
+              "node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/jquery.easing/jquery.easing.min.js",
+              "src/assets/vendor/waypoints/jquery.waypoints.min.js",
+              "src/assets/vendor/counterup/counterup.min.js",
+              "src/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+              "src/assets/vendor/venobox/venobox.min.js",
+              "src/assets/vendor/aos/aos.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +137,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nsano-trade"
+    }
+  },
+  "defaultProject": "nsano-trade",
+  "cli": {
+    "analytics": "8c3c0199-0106-4a1c-908f-4e6bdcdc2cb1"
+  }
 }
